@@ -1,3 +1,5 @@
+var cities=[];
+
 // Template for Metro Cities and Lines
 function city (name){
 	this.name =name;
@@ -13,3 +15,13 @@ function line (number, name) {
 	this.stops = []; //array listing all the stops (by name)
 
 };
+
+function createCity (city, lines) {
+	var cityTemp = new city;
+	cityTemp.name = city.name;
+	cityTemp.numberOfLines = city.numberOfLines;
+	cityTemp.lines = city.lines;
+	cityTemp.locations = city.locations;
+
+	//the same for lines
+}

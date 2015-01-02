@@ -11,8 +11,8 @@ app calculates possible itineraries to that stop. It can easily calculate times 
 It can also calculate itineraries to "remarkable" spots (Eiffel Tower, etc), given they are in the database.
 
 ##Database Format
-The database of this site is very simple, and coded in JSON format, for simple use and accessibility. All JSON files will be public, and anyone can contribute to the site by making pull 
-requests.
+The database of this site is very simple, and coded in JSON format, for simple use and accessibility. The JSON DB will be public, and anyone can contribute to the site by making pull 
+requests on the `db.json` file.
 
 	The template of what the base should look like is:
 ```javascript
@@ -31,6 +31,6 @@ var lines = { // Line
 	stops:[], //array containing all the stops the line makes, by name
 }
 
-createCity(cityName, lines);
+cities.push(createCity(cityName, lines));
 
 ```
