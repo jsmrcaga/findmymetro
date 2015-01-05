@@ -14,7 +14,7 @@ It can also calculate itineraries to "remarkable" spots (Eiffel Tower, etc), giv
 The database of this site is very simple, and coded in JSON format, for simple use and accessibility. The JSON DB will be public, and anyone can contribute to the site by making pull 
 requests on the `db.json` file.
 
-	The template of what the base should look like is:
+The template of what the base should look like is:
 ```javascript
 
 var cityName = { // City
